@@ -5,40 +5,125 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  
 
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main.css">
     <title>Quomodo</title>
   </head>
   <body>
    
-     <div class="card  mx-auto mt-4">
-         <h2 class="text-center">QUOMODO</h2>
-         <p class="text-center">Sign In <span><small class="">Signed Up already? <a href="login.html">Login</a></span></small></p>
-         <form class="form-group" onsubmit="return validateForm()">
-            <label for="name">Name</label>
-            <input type="text" class="form-control mb-3" name="username" id="name" placeholder="John Doe" required>
-           <label for="email">Email</label>
-           <input type="email" class="form-control mb-3" name="useremail" id="email" aria-describedby="emailHelpId" required placeholder="johndoe@example.com">
-           <label for="pswd">Password</label>
-           <input type="password" class="form-control " name="password" id="pswd"  placeholder="password" required>
-           <input type="checkbox" onclick="Toggle()" class="mb-5">  <small>Show Password</small> 
-           <br>
-
-           <button type="submit" class="btn btn-primary"  data-toggle="modal" data-target="#modelId">Submit</button>
-        <!-- Button trigger modal -->
-        <!-- Modal -->
-       
+ <header>
+     <div class="bg">
+    <nav class="navbar navbar-expand contact">
+        <div class="navbar-collapse" >
+           <ul class="ml-auto navbar-nav mt-2 mt-lg-0">
+               <li class="nav-item">
+                   <small><img src="images/mail.svg" /> &nbsp;+234 707 808 1992</small> 
+               </li> <span style="color: #B6D2E3;"> | </span>
+               <li class="nav-item">
+                <small><img src="images/phone.svg" />&nbsp; hello@progut.com</small> 
+               </li>
+           </ul>
+        </div>
+    </nav>
+    
+     <nav class="navbar navbar-expand-lg main-nav ">
+         <a class="navbar-brand" href="#"><img src="images/logo.svg" /></a>
+         <button class="navbar-toggler d-lg-none btn" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+             aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars" aria-hidden="true" style="color: white;"></i>
+            </button>
+         <div class="collapse navbar-collapse" id="collapsibleNavId">
+             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                 <li class="nav-item active">
+                     <a class="nav-link" href="#">How It works <span class="sr-only">(current)</span></a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="#">Customers</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+            </ul>
+            <ul class="ml-auto navbar-nav mt-2 mt-lg-0 login">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Log In</a>
+                </li>
+                <li class="nav-item signup">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+            </ul>
+         </div>
+     </nav>
+     
+     <div class="header-content row container-fluid">
+     <div class="header-text col-lg-6 ">
+         <h5>
+            The simpler way to
+            manage <span class="color">procurement</span>
+         </h5>
+         <p>
+            Proqura is a robust procure-to-pay system for your business. Automated purchasing, simple sourcing and spend analytics — all in one easy-to-use platform
+         </p>
+         <div class="mt-5">
+         <button class="getstarted btn">Book a Demo</button> <span class="quest">Questions? Talk to our team <i class="fa fa-arrow-right" aria-hidden="true"></i> </span>
+         </div>
      </div>
+     <div class="header-img">
+       <div class="card">
+           <img src="images/hero.png">
+       </div>
+     </div>
+     </div>
+    </div>
+ </header>
+ <section>
+    <div class="sec-two">
+        <h3>Have a complete purchasing solution</h3>
+        <p class="subtitle">Advertise, Approve and Manage projects for your business.</p>
+        <div class="card-columns">
+            <div class="card">
+                <div class="img-card">
+                <img class="" src="images/seller 1.svg" alt="">
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">Vendor Agreement</h4>
+                    <p class="card-text">Manage Vendo Agreement with Ease</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img class="" src="images/role 1.svg" alt="">
+                    </div>
+                <div class="card-body">
+                    <h4 class="card-title">User Management</h4>
+                    <p class="card-text">Onboard and fulfill user role effectively</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img-card">
+                    <img class="" src="images/clipboard.svg" alt="">
+                    </div>
+                <div class="card-body">
+                    <h4 class="card-title">Check and Balance</h4>
+                    <p class="card-text">Never Miss a Process wit our workflow</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-   <script src="script.js" ></script> 
 </body>
 
 </html>

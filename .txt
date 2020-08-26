@@ -1,0 +1,22 @@
+The page should list all the available staffs in the system on a table. It should hold a button that pops up a modal for adding a new staff that captures the following details:
+
+FullName: Must only accept first and last names or first middle and last names. Must not accept only one name
+Email Address: Must be valid
+Phone Number: Must be a valid Nigerian number
+Department: Gotten from a list of departments in the server
+Unit: Same as departments
+Address: Just a simple and regular address
+Roles: Gotten from a list of roles in the server
+State of Origin: A list of all Nigerian states
+LGA: From each state
+Country: Defaults to "Nigeria" not editable
+
+The page should hold another button that pops up a modal for editing each staff listed.
+
+It should have another button for deactivating a staff from the list.
+
+The Figma link is pasted in the Zoom chat 
+tech@quomodosystems.com
+
+
+
