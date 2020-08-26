@@ -47,6 +47,7 @@ padding: 0px 20px;
     background-position: top right;
     background-repeat: no-repeat;
     z-index: 100;
+    
   
 }
 .header-img{
@@ -154,6 +155,7 @@ section .subtitle{
 .sec-three{
     background: #FBFAF9;
    padding-top: 100px;
+   margin-top: 20px;
 }
 .sec-three .card-columns{
     margin-top: 30px;
@@ -185,8 +187,22 @@ section .subtitle{
         display: none;
     }
 }
-@media only screen and (max-width: 411px){
+@media screen and (max-width: 768px){
+    section h3{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 576px){
     .contact{
         display: none;
+    }
+    header{
+        padding-left: 0px;
+    }
+    .header-content h5{
+        font-size: 40px;
+    }
+    .quest{
+        margin-left: 10px;
     }
 }
