@@ -12,6 +12,7 @@
     font-family: Circular;
 }
 header{
+    padding-top: 10px;
     background: #4031B7;
     position: relative;
     padding-left: 20px;
@@ -106,7 +107,7 @@ margin: auto;
 .sec-two{
     margin-top: 100px;
 }
-.sec-two h3{
+section h3{
     font-family: Recoleta;
     font-size: 48px;
     line-height: 65px;
@@ -114,7 +115,7 @@ margin: auto;
     color: #111028;
     
 }
-.sec-two .subtitle{
+section .subtitle{
     font-family: Circular;
     font-size: 18px;
     line-height: 23px;
@@ -149,6 +150,35 @@ margin: auto;
     
     color: #828282;
     
+}
+.sec-three{
+    background: #FBFAF9;
+   padding-top: 100px;
+}
+.sec-three .card-columns{
+    margin-top: 30px;
+}
+.sec-three .card{
+    border: none;
+    background: none;
+}
+.sec-three .card-title{
+    font-family: Recoleta;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    
+    color: #17162D;    
+}
+.sec-three .card-text{
+    font-family: Circular;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #828282;
+       
 }
 @media only screen and (max-width: 1045px){
     .header-img{
