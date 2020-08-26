@@ -239,10 +239,21 @@ section .subtitle{
     .sec-four .image{
         display: none;
     }
+    .bg-sec{
+        background-image: url(null);
+        padding-left: none 0px;
+    }
+    .bg-sec h3 , .bg-sec .sub{
+        text-align: center;
+    }
+    .sec-four{
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 768px){
     section h3{
-        font-size: 30px;
+        font-size: 40px;
+        line-height: 35px;
     }
 }
 @media only screen and (max-width: 576px){
@@ -257,5 +268,10 @@ section .subtitle{
     }
     .quest{
         margin-left: 10px;
+    }
+    .prop-text{
+        line-height: 13px;
+        margin-left: 30px;
+        margin-top: -1pc;
     }
 }
