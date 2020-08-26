@@ -44,7 +44,7 @@ padding: 0px 20px;
 }
 .bg{
     background-image: url(images/bg.svg);
-    background-position: top right;
+    background-position: bottom right;
     background-repeat: no-repeat;
     z-index: 100;
     
@@ -54,12 +54,14 @@ padding: 0px 20px;
     margin-left: auto;
 }
 .header-img .card{
+    border: none  !important;
+    border-radius: none !important;
     -webkit-box-shadow: 4px 2px  rgba(48, 32, 175, 0.5),  -40px 0 2px rgba(48, 32, 175, 0.5);
     -moz-box-shadow: 4px 0 2px rgba(48, 32, 175, 0.5),  -40px 0 2px rgba(48, 32, 175, 0.5);
     box-shadow: 4px 0px 2px rgba(48, 32, 175, 0.5),  -40px 20px 2px rgba(48, 32, 175, 0.5);
 }
 .header-content{
-    margin-top: 50px
+    margin-top: 60px
 }
 .header-content h5{
     font-family: Recoleta;
@@ -106,13 +108,13 @@ margin: auto;
 
 }
 .sec-two{
-    margin-top: 100px;
+  padding-top: 100px;
+    padding-bottom: 100px;
 }
 section h3{
     font-family: Recoleta;
     font-size: 48px;
     line-height: 65px;
-    text-align: center;
     color: #111028;
     
 }
@@ -120,7 +122,6 @@ section .subtitle{
     font-family: Circular;
     font-size: 18px;
     line-height: 23px;
-    text-align: center;
     color: #4F4F4F;
     padding-top: 32px;
 }
@@ -156,6 +157,7 @@ section .subtitle{
     background: #FBFAF9;
    padding-top: 100px;
    margin-top: 20px;
+   padding-bottom: 100px;
 }
 .sec-three .card-columns{
     margin-top: 30px;
@@ -182,8 +184,59 @@ section .subtitle{
     color: #828282;
        
 }
+.sec-four{
+    position: relative;
+    padding-left: 50px;
+
+}
+.bg-sec{
+    background-image: url(images/Vector.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: 100;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    
+}
+.prop{
+    width: 64px;
+    height: 64px;
+   border-radius: 50%;
+    background: #4031B7;    
+    text-align: center;
+    padding: 16px 18px;
+}
+.prop-text{
+    line-height: 2px;
+    padding: 20px;
+    margin-left: 20px;
+}
+.bg-sec.row .row{
+    margin-bottom: 46px;
+}
+.sec-five{
+    position: relative;
+}
+
+.bg-ted{
+    background-image: url(images/Vector.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 100;
+    padding-top: 100px;
+    padding-bottom: 70px;   
+}
+.bg-orange{
+    background: url(images/orange.svg);
+   position: absolute;
+   background-repeat: no-repeat;
+   height: 190px;
+}
 @media only screen and (max-width: 1045px){
     .header-img{
+        display: none;
+    }
+    .sec-four .image{
         display: none;
     }
 }
